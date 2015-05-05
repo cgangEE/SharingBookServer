@@ -36,6 +36,7 @@
 		sauthor varchar(50),
 		sprice varchar(50),
 		slocation varchar(50),
+		sold int NOT NULL DEFAULT 0,
 		stime timestamp DEFAULT CURRENT_TIMESTAMP,
 		ustuid varchar(20),
 	 	FOREIGN KEY(ustuid) REFERENCES user(ustuid)
