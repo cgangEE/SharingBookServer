@@ -8,5 +8,6 @@
 		if (!mysql_query("CREATE DATABASE $db_name", $con))
 			die(mysql_error());
 	}
+	mysql_query("SET NAMES utf8"); 
 //	mysql_query("SET CHARACTER SET UFT8");
 ?>
