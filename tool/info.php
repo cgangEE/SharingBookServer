@@ -3,4 +3,5 @@
 	$user="root";
 	$pwd="Shmily00";
 	$db_name="book";
+	$uploadUrl = "http://172.27.35.4/book/upload/";
 ?>
